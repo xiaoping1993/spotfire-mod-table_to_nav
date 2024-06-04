@@ -1,0 +1,39 @@
+{
+    "apiVersion": "1.2",
+    "version": "1.0",
+    "name": "table_to_nav",
+    "id": "table_to_nav",
+    "icon": "icon.svg",
+    "properties": [
+        {
+            "name": "myProperty",
+            "type": "string",
+            "defaultValue": "{\"dataViewChanged\":\"false\",\"foldUnFold\":\"false\",\"checkStatusJson\":{},\"checkStatus\":false}"
+        }
+    ],
+    "dataViewDefinition": {
+        "axes": [
+            {
+                "name": "Element",
+                "mode": "categorical",
+                "placement": "bottom"
+            },
+            {
+                "name": "subElement",
+                "mode": "categorical",
+                "placement": "left"
+            }
+        ]
+    },
+    "files": [
+        "index.html",
+        "main.css",
+        "main.js",
+        "layui/css/layui.css",
+        "layui/layui.js",
+        "layui/font/iconfont.eot",
+        "layui/font/iconfont.svg",
+        "jquery-3.6.0.min.js",
+        "font.css"
+    ]
+}

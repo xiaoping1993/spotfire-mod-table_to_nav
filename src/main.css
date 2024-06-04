@@ -1,0 +1,47 @@
+/*
+* Copyright © 2020. TIBCO Software Inc.
+* This file is subject to the license terms contained
+* in the license file that is distributed with this file.
+*/
+
+body{
+    margin: 0;
+    overflow: hidden;
+}
+/* #mod-container {
+    white-space: pre;
+} */
+.layui-nav-child{
+    bottom: 0;
+    top: auto !important;
+}
+.layui-nav-item{
+    cursor: pointer;
+}
+#element{
+    background-color: rgb(156, 179, 76) !important;
+}
+/* 将子菜单定位到右侧 */  
+/* .layui-nav-item .layui-nav-child {  
+    position: absolute;
+    right: auto;
+    left: 80px;
+    width: auto;
+    height: auto;
+    bottom: 5px;
+  }   */
+    
+  /* 修改子菜单项为水平排列 */  
+  /* .layui-nav-child dd {  
+    display: inline-block;
+    vertical-align: top; 
+  }   */
+dl.layui-nav-child.layui-show {
+    width: 250px;
+    display: flex !important;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.layui-nav-child dd {
+    width: 100px;
+}
